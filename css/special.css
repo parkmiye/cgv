@@ -1,0 +1,106 @@
+#special {
+  width: 1903px;
+  height: 401px;
+  padding-top: 60px;
+}
+#special div.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+#special div.wrap h2 {
+  line-height: 3;
+  font-weight: bold;
+  font-size: 27px;
+}
+#special div.wrap .allshow {
+  line-height: 2;
+  margin-top: -50px;
+  margin-left: 870px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  padding: 1px 13px 1px 16px;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+} 
+#special div.wrap .allshow a {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+}
+#special div.wrap .allshow a:after{
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url(../img/rightarrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1.5px;
+  left: 70px;
+}
+#special div.wrap2{
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+#special div.wrap2 .photo{
+  
+}
+#special div.wrap2 .photo .rbox3{
+  background-image: url(../img/cinema.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#special div.wrap2 .cinema {
+  flex-direction: column;
+  margin-left: 45px;
+}
+#special div.wrap2 .cinema li {
+  width: 438px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #e9e9e9;
+}
+#special div.wrap2 .cinema li:nth-child(4){
+  border-bottom : 1px solid #e9e9e9;
+}
+#special div.wrap2 .cinema li:hover{
+  border: 1px solid black;
+  border-radius : 15px;
+}
+#special div.wrap2 .cinema li a{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 19px 25px 19px 19px;
+}
+#special div.wrap2 .cinema li a p{
+  position: relative;
+  width: 500px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#special div.wrap2 .cinema li p span {
+  position: absolute;
+  right: 120px;
+  border-radius : 5px;
+  background-color: #eee;
+  padding: 2px 2px;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+#event {
+  width: 1903px;
+  height: 395px;
+}
+#event div.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#event div.wrap h2 {
+  line-height: 2;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 50px;
+  margin-right: 900px;
+  margin-bottom: -30px;
+} 
+#event div.wrap .sound {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #e3e3e3;
+  border-radius: 50%;
+  position: relative;
+  left: 360px;
+  top: -18px;
+}
+#event div.wrap .sound a {
+  position: absolute;
+  top: 7px;
+  left: 9px;
+}
+#event div.wrap .sound a::after{
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url(../img/stop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#event div.wrap .allshow {
+  line-height: 2;
+  margin-top: -50px;
+  margin-left: 880px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  padding: 0px 32px 0px 15px;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+}
+#event div.wrap .allshow a {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+}
+#event div.wrap .allshow a::after{
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url(../img/rightarrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1.5px;
+  left: 70px;
+}
+#event div.wrap2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#event div.wrap2 .vidio {
+  display: flex;
+  gap: 30px;
+}
+#event div.wrap2 .vidio .rbox2 {
+  background-size: cover;
+  background-position: center;
+}
+#event div.wrap2 .vidio .rbox2:nth-child(1){
+  background-image: url(../img/event1.jpg);
+}
+#event div.wrap2 .vidio .rbox2:nth-child(2){
+  background-image: url(../img/event2.jpg);
+}
+#event div.wrap2 .vidio .rbox2:nth-child(3){
+  background-image: url(../img/event3.jpg);
+}
+#event div.wrap2 .vidio .rbox2 a {
+  
+}
+#event div.wrap2 .vidioname {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  text-align: center;
+}
+#event div.wrap2 .vidioname li {
+  width: 310px;
+  text-align: start;
+}
+#event div.wrap2 .vidioname li p {
+  font-size: 17px;
+  font-weight: bold;
+}
+#event div.wrap2 .vidioname li .day{
+  font-size: 15px;
+  color: #4d4d4d;
+  margin-top: 15px;
+  font-weight: normal;
+}

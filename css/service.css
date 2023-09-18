@@ -1,0 +1,124 @@
+#service {
+  width: 1903px;
+  height: 436px;
+  padding: 60px 0 0 0;
+}
+#service div.wrap {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto;
+}
+#service div.wrap article{
+  display: flex;
+  gap: 24px;
+}
+#service div.wrap article .rbox4 h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+}
+#service div.wrap article .rbox4 .more {
+  font-size: 12px;
+  font-weight: normal;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 3px 11px;
+  color: #6f6f6f;
+}
+#service div.wrap article .rbox4{
+  width: 270px;
+  padding: 20px 19px 30px;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+}
+#service div.wrap article .rbox4 h3{
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0;
+}
+#service div.wrap article .rbox4 h3 a{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  width: 270px;
+  height: 76px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#service div.wrap article .rbox4 h3 a::before{
+  content: "";
+  position: relative;
+  width: 75px;
+  height: 76px;
+  display: inline-block;
+  grid-row: 1 / span 2;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#service div.wrap article .rbox4 a span {
+  width: 197px;
+  text-align: left;
+  padding-left: 12px;
+  padding-top: 20px;
+}
+#service div.wrap article .rbox4 a p {
+  margin-right: 115px;
+  font-size: 16.5px;
+}
+#service div.wrap article .service1 {
+
+}
+#service div.wrap article .service1 .rbox4 h3 a:nth-child(1)::before{
+  background-image: url(../img/service1.jpg);  
+}
+#service div.wrap article .service1 .rbox4 h3 a:nth-child(2)::before{
+  background-image: url(../img/service2.jpg);  
+}
+#service div.wrap article .service1 .rbox4 h3 a:nth-child(3)::before{
+  background-image: url(../img/service3.jpg);  
+}
+#service div.wrap article .service1 .rbox4 a span {
+
+}
+#service div.wrap article .service1 .rbox4 a p {
+
+}
+#service div.wrap article .service2 {
+
+}
+#service div.wrap article .service2 .rbox4 h3 a:nth-child(1)::before{
+  background-image: url(../img/service4.jpg);
+}
+#service div.wrap article .service2 .rbox4 h3 a:nth-child(2)::before{
+  background-image: url(../img/service5.jpg);
+}
+#service div.wrap article .service2 .rbox4 h3 a:nth-child(3)::before{
+  background-image: url(../img/service6.jpg);
+}
+#service div.wrap article .service2 .rbox4 a span {
+  
+}
+#service div.wrap article .service2 .rbox4 a p {
+  
+}
+#service div.wrap article .service3 {
+
+}
+#service div.wrap article .service3 .rbox4 h3 a:nth-child(1)::before{
+  background-image: url(../img/service7.jpg);  
+}
+#service div.wrap article .service3 .rbox4 h3 a:nth-child(2)::before{
+  background-image: url(../img/service8.jpg);  
+}
+#service div.wrap article .service3 .rbox4 h3 a:nth-child(3)::before{
+  background-image: url(../img/service9.jpg);  
+}
+#service div.wrap article .service3 .rbox4 a span {
+  
+}
+#service div.wrap article .service3 .rbox4 a p {
+  
+  margin-right: 104px;
+}

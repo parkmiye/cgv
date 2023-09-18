@@ -1,0 +1,248 @@
+#faq {
+  
+  width: 1903px;
+  height: 388px;
+}
+#faq .end{
+  width: 980px;
+  height: 238px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 40px;
+} 
+#faq div.wrap {
+  width: 700px;
+  margin: 0;
+  text-align: center;
+  padding: 10px 30px 0px 30px;
+  height: 236px;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+}
+#faq div.wrap li{
+  font-size: 16.5px;
+  font-weight: bold;
+}
+#faq div.wrap li a{
+  font-size: 14px;
+  font-weight: bold;
+}
+#faq div.wrap .f1 {
+  width: 400px;
+  height: 70px;
+  padding-top: 20px;
+  /*! border-bottom: 1px solid #e4e4e499; */
+}
+#faq div.wrap .f1 li {
+
+}
+#faq div.wrap .f1 li a {
+
+}
+#faq div.wrap .f1 li .more {
+  font-size: 12px;
+  /*! font-weight: normal; */
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 3px 11px;
+  color: #6f6f6f;
+}
+#faq div.wrap .f2 {
+  width: 400px;
+  height: 60px;
+  padding-top: 20px;
+  position: relative;
+  border-top: 1px solid #e4e4e499;
+  margin-top: -20px;
+}
+#faq div.wrap .f2 li {
+  position: absolute;
+}
+#faq div.wrap .f2 li:nth-child(2){
+  left: 100px;
+}
+#faq div.wrap .f2 li:nth-child(3){
+  left: 100px;
+  top: 40px;
+}
+#faq div.wrap p{
+  width: 400px;
+  height: 30px;
+  text-align: left;
+  margin-bottom: -10px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+#faq div.wrap p a{
+  font-size: 14.5px;
+  font-weight: 500;
+  background-color: #eeeeeeba;
+  padding: 7px 14px;
+  border-radius: 5px;
+}
+#faq div.wrap2 {
+  position: relative;
+  right: 240px;
+  width: 236px;
+  text-align: center;
+  border-left: 1px solid #e4e4e4;
+}
+#faq div.wrap2 .app {
+  
+}
+#faq div.wrap2 .app .rbox {
+  width: 230px;
+  height: 233px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}
+#faq div.wrap2 .app .rbox p {
+  font-size: 13px;
+  font-weight: bold;
+}
+#faq div.wrap2 .app .rbox p:nth-child(1){
+  font-size: 16.5px;
+  font-weight: bold;
+}
+#faq div.wrap2 .app .rbox p:nth-child(2){
+  
+  padding-bottom: 130px;
+}
+#faq div.wrap2 .app .rbox p:nth-child(3){
+  color: #999;
+  font-weight: normal;
+  position: absolute;
+  top: 185px;
+  left: 66px;
+  font-size: 11.5px;
+}
+#faq div.wrap2 .app .rbox p br{
+  
+}
+#faq div.wrap2 .app .rbox p span{
+    
+  position: absolute;
+  top: 25px;
+  display: flex;
+  width: 200px;
+  left: -34px;
+}
+#faq div.wrap2 .app .rbox p:nth-child(3)::before{
+  content: "";
+  background-image: url(../img/code.gif);
+  background-size: contain;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -97px;
+  left: 15px;
+}
+#faq div.wrap2 a.rbox{
+  width: 210px;
+  height: 240px;
+  position: absolute;
+  left: 263px;
+  top: -5px;
+  background-image: url(../img/pay.png);
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+#faq div.wrap2 .rbox .sound {
+  background-color: #e3e3e3;
+  border: 1px solid #e3e3e3;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: relative;
+  left: 172px;
+  top: 202px;
+  font-size: 0;
+}
+#faq div.wrap2 .rbox .sound::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-image: url(../img/stop.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 7px;
+  left: 9px;
+}
+
+/* 광고 */
+#gwanggo{
+  width: 1903px;
+  height: 244px;
+}
+#gwanggo .wrap{
+  width: 1903px;
+  height: 243px;
+}
+#gwanggo .wrap p{
+  width: 1903px;
+  height: 244px;
+  background-image: url(../img/gwanggo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+}
+#gwanggo .wrap a{
+  font-size: 0;
+}
+#gwanggo .wrap .g{
+  background-color: #fed900;
+  width: 1903px;
+  display: block;
+  position: relative;
+  top: -185px;
+  height: 185px;
+}
+
+main aside{
+  position: fixed;
+  right: 376px;
+  bottom: 70px;
+  z-index: 1;
+}
+main aside .ye{
+  border: 1px solid transparent;
+  border-radius: 30px; 
+  padding: 13px 30px;
+  background-color: #FC4B57;
+  color: white;
+  font-weight: bold;
+}
+main aside .top{
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 24px 24px;
+  font-size: 0; 
+  position: relative;
+  top: -6px;
+}
+main aside .top::before{
+  content: "";
+  background-image: url(../img/top.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 25px;
+  display: inline-block;
+  position: absolute;
+  left: 16px;
+  top: 13px;
+}
+
